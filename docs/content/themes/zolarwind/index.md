@@ -3,14 +3,14 @@
 title = "Zolarwind"
 description = "A localizable blog theme using Tailwind CSS for styling and KaTex for math"
 template = "theme.html"
-date = 2024-05-27T05:58:59Z
+date = 2024-07-01T05:58:26Z
 
 [extra]
-created = 2024-05-27T05:58:59Z
-updated = 2024-05-27T05:58:59Z
+created = 2024-07-01T05:58:26Z
+updated = 2024-07-01T05:58:26Z
 repository = "https://github.com/thomasweitzel/zolarwind.git"
 homepage = "https://github.com/thomasweitzel/zolarwind"
-minimum_version = "0.18.0"
+minimum_version = "0.19.0"
 license = "MIT"
 demo = "https://pureandroid.com"
 
@@ -143,7 +143,7 @@ The `[extra]` section is where you can place any custom variables you want to be
 
 - **generator**: Optional.
   Specifies the generator used for creating the static website.
-  This site is generated using `Zola v0.18.0`.
+  This site is generated using `Zola v0.19.0`.
 
 - **path_language_resources**: The path to the directory containing language resource files.
   In this config, it's set to `i18n/`.

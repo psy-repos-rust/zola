@@ -3,11 +3,11 @@
 title = "tabi"
 description = "A fast, lightweight, and modern Zola theme with multi-language support, optional JavaScript, and a perfect Lighthouse score"
 template = "theme.html"
-date = 2024-05-27T05:58:59Z
+date = 2024-07-01T05:58:26Z
 
 [extra]
-created = 2024-05-27T05:58:59Z
-updated = 2024-05-27T05:58:59Z
+created = 2024-07-01T05:58:26Z
+updated = 2024-07-01T05:58:26Z
 repository = "https://github.com/welpo/tabi.git"
 homepage = "https://github.com/welpo/tabi"
 minimum_version = "0.17.0"
@@ -148,6 +148,8 @@ If you want to serve your blog posts from a different path, such as `blog/`, add
 section_path = "blog/_index.md"
 ```
 
+**Note**: use the full path to the section's `_index.md` file. Simply using `section_path = "blog/"` will not work.
+
 6. If you want an introduction section (see screenshot above), add these lines to `content/_index.md`:
 
 ```
@@ -173,7 +175,22 @@ This configuration allows the language switcher to take the user to the translat
 
 To learn more about multilingual support, see the [Frequently Asked Questions](https://welpo.github.io/tabi/blog/faq-languages/).
 
-## Sites Using tabi
+### Updating tabi
+
+If you added the theme as a git submodule, run:
+
+```bash
+git submodule update --remote themes/tabi
+```
+
+If you cloned it:
+
+```bash
+cd themes/tabi
+git pull
+```
+
+## Sites using tabi
 
 | Website | Creator | Description  | Site Source   |
 | - | - | - | - |
